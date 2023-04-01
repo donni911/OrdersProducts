@@ -1,6 +1,27 @@
 <template>
-  <div>
-    <NuxtLayout> </NuxtLayout>
-    <NuxtPage />
+  <div class="flex items-center">
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
   </div>
 </template>
+
+<style>
+body {
+  @apply font-Lato min-h-full;
+}
+
+html {
+  @apply h-full;
+}
+
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.4s;
+}
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
+  filter: blur(1rem);
+}
+</style>

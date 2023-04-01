@@ -1,0 +1,48 @@
+{
+  "orders": [
+    {
+      "id": 1,
+      "orderTitle": "Order 1",
+      "customerEmail": "john.doe@example.com",
+      "orderAmount": 100,
+      "date": "10/16/2001",
+      "price": "250",
+      "products": [
+        {
+          "id": 1,
+          "name": "Tv",
+          "model": "3123132112",
+          "is_available": true
+        },
+        {
+          "id": 2,
+          "name": "Tv2",
+          "model": "31231322112",
+          "is_available": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "orderTitle": "Order 2",
+      "customerEmail": "john.doe@example.com",
+      "orderAmount": 100,
+      "date": "04/19/2001",
+      "price": "100",
+      "products": [
+        {
+          "id": 1,
+          "name": "Tv",
+          "model": "3123132112",
+          "is_available": true
+        },
+        {
+          "id": 2,
+          "name": "Tv2",
+          "model": "31231322112",
+          "is_available": false
+        }
+      ]
+    }
+  ]
+}
